@@ -1,5 +1,7 @@
 Project Repository for COMPSC463 Project 2.
 
+The program we chose to develop is a Crime Analysis Application with Live Data.
+
 # Project Description
 
 In this project, students will have the opportunity to propose and develop their own project related to the theme of crime/violence. The goal is to encourage students to apply their knowledge of algorithms to a relevant and meaningful problem in the context of crime/violence. In this group project assignment, you and your team member will embark on a creative and meaningful journey to develop a software application that reflects the knowledge and skills you have acquired in this course. This project serves as a culmination of your learning experience, aiming to apply what you've learned to solve real-world problems through software development and teamwork. Students are encouraged to explore various aspects of crime/violence such as crime and violence, such as crime detection and monitoring, resource allocation for law enforcement, strategies for crime prevention and community safety, data logging and real-time analysis of crime patterns, simulation and forecasting of crime trends, and emergency communication systems for crisis response, or any other related area of interest. Through this project, students will have the flexibility to showcase their creativity, critical thinking, and technical skills while addressing important challenges in the crime/violence problem.
