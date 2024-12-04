@@ -162,6 +162,6 @@ Indiviudal Cases for each function are located in test.py
 - Due to the large size of the dataset, only 500 rows were used for this analysis. This may limit the generalizability and accuracy of the model, as a larger dataset could provide more reliable insights.
 
 ### Course Learning Applied:
-- ** Greedy Algorithm **: Used a greedy algorithm to find and list the top frequent crime areas based on their crime count. This approach ensures that the most crime-prone areas are prioritized for resource allocation.
+- **Greedy Algorithm**: Used a greedy algorithm to find and list the top frequent crime areas based on their crime count. This approach ensures that the most crime-prone areas are prioritized for resource allocation.
 
 This project effectively showcases the practical application of the concepts learned in COMPSC463 throughout the semester. It successfully delivers a comprehensive crime analysis dashboard, providing valuable insights through spatial, temporal, and predictive analyses. The project meets its goals of analyzing crime data and improving resource allocation, while also integrating algorithms like greedy algorithms and machine learning models for practical solutions. 
