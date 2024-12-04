@@ -153,5 +153,15 @@ The test case option for the main program can be accessed when no CSV file is en
 Indiviudal Cases for each function are located in test.py
 - Example Usage:
   - Output: ![alt text](report_images/image-2.png)
-# Conclusion
-This project has helped demonstrate the usefulness of the material learned in COMPSC463 so far in the semester. The program utilized the many different algorithms and general coding ability of the student in order to successfully complete it. The inclusion of the different algorithms did not feel too out of place, as well as the project topic felt natural to what could be encountered in the development industry. One improvement that could be added to this project (as it was not needed, but I included anyway in my version) is the importance of the built-in test cases. This improves efficiency for the grader, as they do not have to insert values manually into the program in order to validate the program and instead can have the option of a "TEST" mode.
+
+ 
+# Discussion and Conclusion
+
+### Issues and Limitations:
+- Missing or incomplete data, especially for geographic coordinates, can affect the quality of analysis.
+- Due to the large size of the dataset, only 500 rows were used for this analysis. This may limit the generalizability and accuracy of the model, as a larger dataset could provide more reliable insights.
+
+### Course Learning Applied:
+- ** Greedy Algorithm **: Used a greedy algorithm to find and list the top frequent crime areas based on their crime count. This approach ensures that the most crime-prone areas are prioritized for resource allocation.
+
+This project effectively showcases the practical application of the concepts learned in COMPSC463 throughout the semester. It successfully delivers a comprehensive crime analysis dashboard, providing valuable insights through spatial, temporal, and predictive analyses. The project meets its goals of analyzing crime data and improving resource allocation, while also integrating algorithms like greedy algorithms and machine learning models for practical solutions. 
