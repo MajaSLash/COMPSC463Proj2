@@ -8,7 +8,6 @@ from sklearn.cluster import KMeans
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, silhouette_score
 from scipy.stats import gaussian_kde
-import geopandas as gpd
 import warnings
 from collections import Counter
 
