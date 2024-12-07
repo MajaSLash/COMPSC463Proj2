@@ -114,13 +114,16 @@ COMPSC463Proj2<br>
   - Classes:
     - CrimeAnalysisDashboard: Master Class to run all generative processes and analysis
   - Methods:
-    - load_data: Initializes the analyzer with financial data
-      - load_csv: Loads given CSV file and passes data into `load_data()`
-    - merge_sort: Implementation of merge sort with O(n log n) complexity; Sorted list of FinancialDataPoint objects
-      - _merge: Helper function for merge sort
-    - find_max_subarray: Finds period of maximum gain using divide-and-conquer
-    - detect_anomalies: Uses rolling statistics and z-scores for detection of unusual price movements
-    - generate_report: Combines results from all analysis functions
+    - preprocess_data: Preprocess and clean the crime data
+    - spatial_clustering: Perform spatial clustering of crime locations using K-Means
+        - :param n_clusters: Number of clusters to create
+        - :return: Clustered data and clustering metrics
+    - temporal_trend_analysis: Analyze temporal trends in crime data
+    - crime_type_prediction: Predict crime type likelihood using Random Forest
+    - def density_hotspot_analysis: Create density-based hotspot analysis
+    - top_frequent_crime_areas: List the top N crime hotspots using a greedy algorithm
+    - visualize_crime_insights: Create comprehensive visualizations of crime analysis results
+    - run_comprehensive_analysis: Execute a comprehensive crime data analysis pipeline
 
 - tests.py: Test cases for application functions
 
