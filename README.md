@@ -101,15 +101,12 @@ Your project will be assessed according to the following criteria:
 - Everything here can be subject to change with common-sense reasoning
 
 # Code Structure
-report_images (Not relevant to application)<br>
-    └── image-1.png<br>
-    └── image-2.png<br>
-    └── image.png<br>
 
-COMPSC463Proj1<br>
+COMPSC463Proj2<br>
     └── main.py<br>
-    └── algorithm.py<br>
+    └── algorithms.py<br>
     └── tests.py<br>
+    └── Crime_Data_from_2020_to_Present.csv<br>
 
 - main.py: Driver code for the application.
 
@@ -131,28 +128,27 @@ COMPSC463Proj1<br>
 # Tutorial
 
 *Required Installs*
-pip install numpy pandas matplotlib
+Download the dataset [here](https://www.kaggle.com/datasets/haseefalam/crime-dataset?resource=download)
 
 *Guide*
-- Run `git clone https://github.com/MajaSLash/COMPSC463Proj1.git` in your terminal to download this repository.
-- Download a dataframe from Kaggle to a CSV file (Instructions linked [here](https://www.kaggle.com/discussions/getting-started/58426)).
+- Run `git clone https://github.com/MajaSLash/COMPSC463Proj2.git` in your terminal to download this repository.
+- Download the dataset from Kaggle to a CSV file (Instructions linked [here](https://www.kaggle.com/discussions/getting-started/58426)).
 - Move the file into this project's directory.
 - Run the program from main.py
-- When prompted, enter the filename into the project.
-- To use the test case suite, run `python -m unittest tests.py -v` in your terminal.
+- To use the test case suite, run `python -m unittest tests.py` in your terminal.
 
 # Test Cases
 
 *Main Program Test Cases*
 The test case option for the main program can be accessed when no CSV file is entered. This will generate random data to be inserted into the program.
 - Example Usage:
-  - Output: ![alt text](report_images/image.png)
-  - Chart: ![alt text](report_images/image-1.png)
+  - Output: ![alt text](report_images/image_2.png)
+  - Chart: ![alt text](report_images/image_3.png)
 
 *Test Cases for Individual Parts*
 Indiviudal Cases for each function are located in test.py
 - Example Usage:
-  - Output: ![alt text](report_images/image-2.png)
+  - Output: ![alt text](report_images/image.png)
 
  
 # Discussion and Conclusion
