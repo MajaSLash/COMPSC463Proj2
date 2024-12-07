@@ -2,7 +2,7 @@ from algorithms import CrimeAnalysisDashboard
 
 def main():
     # Example usage
-    crime_dashboard = CrimeAnalysisDashboard('crime_data.csv')
+    crime_dashboard = CrimeAnalysisDashboard('Crime_Data_from_2020_to_Present.csv')
     analysis_results = crime_dashboard.run_comprehensive_analysis()
     
     # Print key insights
