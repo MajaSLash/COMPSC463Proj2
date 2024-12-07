@@ -112,8 +112,7 @@ COMPSC463Proj2<br>
 
 - algorithm.py: Contains the various algorithms used to produce the analysis results based on the data.
   - Classes:
-    - FinancialDataPoint: Stores a single point of financial data
-    - AnomalyReport: Stores information about detected anomalies
+    - CrimeAnalysisDashboard: Master Class to run all generative processes and analysis
   - Methods:
     - load_data: Initializes the analyzer with financial data
       - load_csv: Loads given CSV file and passes data into `load_data()`
@@ -123,7 +122,9 @@ COMPSC463Proj2<br>
     - detect_anomalies: Uses rolling statistics and z-scores for detection of unusual price movements
     - generate_report: Combines results from all analysis functions
 
-- tests.py: Test cases for application functions.
+- tests.py: Test cases for application functions
+
+- Crime_Data_from_2020_to_Present.csv: Dataset downloaded from Kaggle
 
 # Tutorial
 
