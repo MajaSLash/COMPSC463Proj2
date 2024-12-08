@@ -141,13 +141,11 @@ Download the dataset [here](https://www.kaggle.com/datasets/haseefalam/crime-dat
 - Run the program from main.py
 - To use the test case suite, run `python -m unittest tests.py` in your terminal.
 
-# Test Cases
-
-*Main Program Test Cases*
-The test case option for the main program can be accessed when no CSV file is entered. This will generate random data to be inserted into the program.
 - Example Usage:
   - Output: ![alt text](report_images/image_2.png)
   - Chart: ![alt text](report_images/image_3.png)
+  
+# Test Cases
 
 *Test Cases for Individual Parts*
 Indiviudal Cases for each function are located in test.py
